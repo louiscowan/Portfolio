@@ -1,0 +1,29 @@
+@import './global.scss';
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100vw;
+}
+
+.project {
+   display: block;
+   background-color: $bg-light;
+   color: $bg-dark;
+   height: 14em;
+   width: 14em;
+   border-radius: 8px;
+   text-align: center;
+   padding: 5px;
+   margin: 15px;
+   h2 {
+    position: relative;
+    padding-top: 20px;  
+   }
+}
+
+a {
+ text-decoration: none;
+}

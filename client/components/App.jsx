@@ -1,12 +1,15 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Home from './Home/index.jsx'
+import Index from './fileSelector/index'
 
 function App() {
   return (
     <>
-      <header className="header">
-        <h1>My Collection</h1>
-      </header>
-      <section className="main">{/* add your code here */}</section>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/file-selector' element={<Index />} />
+      </Routes>
     </>
   )
 }
