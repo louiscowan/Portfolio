@@ -1,0 +1,19 @@
+@import './global.scss';
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.navbarStuff {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    text-decoration: none;
+    li {    
+        display: block;
+        height:fit-content;
+        width: 20px;
+    }
+}

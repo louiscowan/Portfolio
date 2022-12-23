@@ -8,7 +8,6 @@ function Project ({h2, p}) {
 
     const  changeColor = () => {
        let color = (Math.floor(Math.random()*16777215).toString(16))
-       console.log("hello", color)
        setColor({border: `4px solid #${color}`})
     }
 
