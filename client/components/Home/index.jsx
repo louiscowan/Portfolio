@@ -1,6 +1,6 @@
 import Navbar from '../Navbar/index.jsx'
 
-import React, {useState} from "react";
+import React from "react";
 import { Link } from 'react-router-dom'
 
 import Project from "./Project";

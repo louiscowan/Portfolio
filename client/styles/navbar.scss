@@ -3,17 +3,37 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    height: 40px;
+    height: 60px;
+    width: 100vw;
+    left:0px;
+    position: fixed;
+    top: 0px;
+    background-color: $bg-light;
+    justify-content: end;
+    align-items: center;
 }
 
 .navbarStuff {
-    display: flex;
-    flex-direction: row;
     padding: 0;
     text-decoration: none;
-    li {    
-        display: block;
-        height:fit-content;
-        width: 20px;
+    justify-content: center;
+    height: fit-content;
+    margin: 0;
+        img {
+            height: 40px;
+            width: 47px;
+            padding-left: 7px;
+            padding-right: 7px;
+            &:hover {
+                animation-name: expand;
+                animation-duration: 0.5s;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+
+@keyframes expand {
+    100% {
+        transform: scale(1.2);
     }
 }
