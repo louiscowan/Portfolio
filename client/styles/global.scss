@@ -1,2 +1,7 @@
 $bg-light: #F2F2F2;
 $bg-dark: #232121;
+
+*::-webkit-scrollbar {
+    display: none;
+    max-width: 100%;
+  }
