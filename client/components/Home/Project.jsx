@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import style from '../../styles/home.scss'
 
 function Project ({h2, p}) {
@@ -15,10 +15,12 @@ function Project ({h2, p}) {
         <div>
             <div onMouseEnter={changeColor} style={color} className='project'>
                 <h2>{h2}</h2>
+                <div className="pDiv">
                     <p>
                        {p}
                     </p>
                 </div>
+            </div>
         </div>
     )
 }

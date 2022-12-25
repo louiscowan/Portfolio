@@ -23,7 +23,7 @@ function index () {
                 </div>
                 <div>
                     <a href="https://at-what-cost.devacademy.nz">
-                        <Project h2={'Financial Spending Tracker'} p={'This is my final group project from Dev Academy. This app allows you to upload a csv file and look at what you have spent your money on. You are also able to put filters on different purchases to be able to see a graph breakdown of your spending habbits. Login and your filters will be saved.'}/>
+                        <Project h2={'Financial Spending Tracker'} p={'Financial spending tracking app. Final project at from Dev Academy.'}/>
                     </a>
                 </div>
             </div>

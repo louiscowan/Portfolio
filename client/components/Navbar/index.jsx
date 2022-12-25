@@ -9,7 +9,7 @@ function Index () {
                 <div>
                     <ul>
                         <li>
-                            <h2>Louis Portfolio</h2>
+                            <h1>Louis Portfolio</h1>
                         </li>
                     </ul>
                 </div>

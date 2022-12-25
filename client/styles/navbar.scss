@@ -1,7 +1,7 @@
 @import './global.scss';
 
 .navbar {
-    height: 60px;
+    height: 70px;
     width: 100% ;
     left:0px;
     position: fixed;
@@ -17,7 +17,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 70px;
     margin: 0;
         ul {
             display: flex;
@@ -25,11 +25,14 @@
             li {
                 list-style: none;
                 color: $bg-dark;
+                h1 {
+                    font-size: 24px;
+                }
             }
         }
         img {
-            height: 40px;
-            width: 47px;
+            height: 50px;
+            width: 58px;
             padding-left: 7px;
             padding-right: 7px;
             &:hover {
